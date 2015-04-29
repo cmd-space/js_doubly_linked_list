@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doubly Linked List</title>
+    <script>
+        function Node(val){
+            this.value = val;
+            this.parent = undefined;
+            this.child = undefined;
+        }
+        function DoublyLinkedNode(first_val){
+            this.head = new Node(first_val);
+            this.tail = undefined;
+            this.addNode(x){
+                var node = new Node(x);
+                if(this.head !== undefined){
+                    this.tail = undefined                    
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
